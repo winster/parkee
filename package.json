@@ -1,0 +1,28 @@
+{
+  "name": "parkee",
+  "version": "0.0.1",
+  "description": "Solution to parking",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "express": "*",
+    "node-localstorage":"*",
+    "body-parser":"*",
+    "node-gcm":"*",
+    "ws": "0.4.x"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winster/parkee"
+  },
+  "keywords": [
+    "parking"
+  ],
+  "license": "MIT"
+}
