@@ -25,6 +25,11 @@ app.get('/', function(request, response) {
   response.render('public/index.html');
 });
 
+app.get('/package', function(request, response) {
+  var json = require('./package.json');
+  response.send(JSON.stringify(json));
+});
+
 var server = http.createServer(app)
 server.listen(port)
 console.log("http server listening on %d", port)
